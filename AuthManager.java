@@ -27,6 +27,7 @@ public class AuthManager {
         return this.tblPartnerApiDao.findUnique("findPartnerApiInformationByName", filter);
     }
 	public void test1(){
+	}public void test3(){
 	}
 		
 }
