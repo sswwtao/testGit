@@ -18,7 +18,8 @@ import java.util.Map;
 public class AuthManager {
     @Autowired
     private TblPartnerApiDao tblPartnerApiDao;
-
+	public void test2(){
+	}
 
     public TblPartnerApi findPartnerApiInformationByName(String partnerName){
         Map<String, Object> filter = new HashMap<String, Object>(1);
