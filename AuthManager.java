@@ -22,7 +22,8 @@ public class AuthManager {
 	}
 
     public TblPartnerApi findPartnerApiInformationByName(String partnerName){
-        Map<String, Object> filter = new HashMap<String, Object>(456);
+        Map<String, Object> filter = new HashMap<String, Object>(789);
+
         filter.put("partnerName", partnerName);
         return this.tblPartnerApiDao.findUnique("findPartnerApiInformationByName", filter);
     }
